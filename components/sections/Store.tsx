@@ -49,7 +49,7 @@ export default function Store() {
               className="label link-underline inline-flex items-center gap-1.5 text-ink-soft"
             >
               <ArrowLeft className="h-3.5 w-3.5" strokeWidth={1.5} />
-              Maison Argyle
+              Morello Studio
             </Link>
             <span className="label text-stone">Store — Vol. 03</span>
           </div>

@@ -25,12 +25,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const product = getProduct(slug);
-  if (!product) return { title: "Not found — Maison Argyle" };
+  if (!product) return { title: "Not found — Morello Studio" };
   return {
-    title: `${product.name} — Maison Argyle`,
+    title: `${product.name} — Morello Studio`,
     description: product.description,
     openGraph: {
-      title: `${product.name} — Maison Argyle`,
+      title: `${product.name} — Morello Studio`,
       description: product.description,
       images: product.images,
     },

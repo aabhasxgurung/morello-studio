@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
 /* ----------------------------------------------------------------------------
-   Maison Argyle — design tokens
-   A warm cream canvas, ink-black type, and one decisive navy blue.
+   Morello Studio — design tokens
+   A light cream canvas, ink-black type, and one decisive morello red.
 ---------------------------------------------------------------------------- */
 @theme {
-  --color-cream: #ece5d6;
-  --color-bone: #f4eee2;
-  --color-sand: #e0d7c4;
-  --color-ink: #15120c;
-  --color-ink-soft: #3b362b;
-  --color-stone: #8c8472;
-  --color-accent: #01497c;
-  --color-accent-deep: #013a63;
-  --color-accent-soft: #2a6f97;
+  --color-cream: #f6f2ec;
+  --color-bone: #fcfaf7;
+  --color-sand: #e9e1d7;
+  --color-ink: #171210;
+  --color-ink-soft: #3d3330;
+  --color-stone: #75685f;
+  --color-accent: #752532;
+  --color-accent-deep: #511923;
+  /* A light tint of the same hue — the accent itself is too dark to read on
+     the ink surfaces (footer, preloader, menu overlay), so those use this. */
+  --color-accent-soft: #d58b98;
 
   --font-display: var(--font-anton);
   --font-sans: var(--font-geist-sans);
@@ -109,6 +111,22 @@ html.lenis body {
 /* ----------------------------------------------------------------------------
    Utilities
 ---------------------------------------------------------------------------- */
+/* The house mark, drawn as a mask so it inherits currentColor. The nav flips
+   between bone and ink depending on what's underneath it — a flat <img> would
+   stay morello red and disappear over the hero photography. */
+.logo-mark {
+  display: block;
+  background-color: currentColor;
+  mask-image: url("/Logo.png");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-image: url("/Logo.png");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
 /* Subtle film grain so flat color planes feel like printed paper */
 .grain::after {
   content: "";

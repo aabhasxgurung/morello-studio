@@ -25,7 +25,7 @@ export default function Stores() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-sand">
               <Media
                 src="/about/ab6.jpg"
-                alt="Inside the Argyle Mansion, Kathmandu"
+                alt="Inside the Morello Mansion, Kathmandu"
                 sizes="(max-width: 768px) 100vw, 58vw"
               />
               <span className="label absolute bottom-3 left-3 z-10 rounded-full bg-bone/85 px-3 py-1 text-ink backdrop-blur-sm">
@@ -49,7 +49,7 @@ export default function Stores() {
               <div className="flex flex-col gap-1">
                 <span className="label text-stone">Address</span>
                 <p className="leading-relaxed">
-                  Argyle Mansion
+                  Morello Mansion
                   <br />
                   Thamel, Kathmandu 44600
                   <br />

@@ -63,8 +63,7 @@ export default function ProductCard({
           </div>
         </div>
 
-        {/* name inherits the section's text color — the card sits on cream
-            in the store and on navy in the capsule block */}
+        {/* Name inherits the section's text colour across catalogue grids. */}
         <div className="mt-3 flex flex-col items-center gap-1 text-center">
           <h3 className="label">{product.name}</h3>
           <p className="label text-stone">

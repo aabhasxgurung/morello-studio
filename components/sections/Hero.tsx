@@ -62,7 +62,7 @@ export default function Hero() {
       <div className="hero-bg absolute inset-x-0 top-[-14%] h-[128%]">
         <Media
           src="/home/bg.png"
-          alt="Maison Argyle Vol. 03 — seaside campaign"
+          alt="Morello Studio Vol. 03 — seaside campaign"
           preload
           sizes="100vw"
         />
@@ -76,7 +76,7 @@ export default function Hero() {
       {/* meta row */}
       <div className="absolute inset-x-0 top-0 flex items-start justify-between px-5 pt-28 text-bone/80 md:px-10 md:pt-32">
         <span className="label max-w-[16ch]">Spring / Summer — Vol. 03</span>
-        <span className="label hidden md:block">[ Cream · Ink · Navy ]</span>
+        <span className="label hidden md:block">[ Cream · Ink · Morello ]</span>
         <span className="label text-right">N 51°30′ / W 0°07′</span>
       </div>
 

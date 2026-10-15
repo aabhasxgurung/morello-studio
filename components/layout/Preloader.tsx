@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const words = ["MAISON", "アーガイル", "ESSENTIALS", "STREETWEAR", "ARGYLE"];
+const words = ["MORELLO", "モレロ", "ESSENTIALS", "STREETWEAR", "STUDIO"];
 
 export default function Preloader() {
   const [done, setDone] = useState(false);
@@ -49,7 +49,10 @@ export default function Preloader() {
           transition={{ duration: 1, ease: [0.85, 0, 0.15, 1] }}
         >
           <div className="flex items-center justify-between">
-            <span className="label text-bone/60">MAISON ARGYLE™ — Vol. 03</span>
+            <span className="flex items-center gap-2.5 text-bone/60">
+              <span className="logo-mark h-5 w-[0.95rem] shrink-0" />
+              <span className="label">MORELLO STUDIO™ — Vol. 03</span>
+            </span>
             <span className="label text-bone/60">Est. MMXXVI</span>
           </div>
 
@@ -72,7 +75,7 @@ export default function Preloader() {
             <span className="label max-w-[12ch] text-bone/60">
               Garments as cultural artifacts
             </span>
-            <span className="font-display text-[clamp(2.5rem,9vw,7rem)] leading-none text-accent">
+            <span className="font-display text-[clamp(2.5rem,9vw,7rem)] leading-none text-accent-soft">
               {String(count).padStart(3, "0")}
             </span>
           </div>

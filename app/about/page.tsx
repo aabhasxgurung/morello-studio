@@ -7,9 +7,9 @@ import CTA from "@/components/sections/CTA";
 import TextReveal from "@/components/ui/TextReveal";
 
 export const metadata: Metadata = {
-  title: "About — Maison Argyle",
+  title: "About — Morello Studio",
   description:
-    "The story behind Maison Argyle — a streetwear and essentials label working in small runs with named makers, drawing on folklore, workwear, and the quiet codes of the street.",
+    "The story behind Morello Studio — a streetwear and essentials label working in small runs with named makers, drawing on folklore, workwear, and the quiet codes of the street.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       {/* page intro */}
       <header className="relative flex min-h-[68svh] flex-col justify-end px-5 pb-16 pt-32 md:px-10 md:pb-24 md:pt-40">
-        <span className="label text-accent">About — Maison Argyle</span>
+        <span className="label text-accent">About — Morello Studio</span>
         {/* whitespace-nowrap keeps each line on one row, and an inline
             line-height overrides `.font-display`'s 0.86 (too tight for these
             long, full-width caps stacked together — they'd overlap). */}
@@ -47,7 +47,7 @@ export default function AboutPage() {
           />
         </div>
         <p className="mt-[clamp(4rem,9vw,8rem)] max-w-md text-base leading-relaxed text-ink-soft md:text-lg">
-          Maison Argyle is a streetwear &amp; essentials label for people who
+          Morello Studio is a streetwear &amp; essentials label for people who
           treat what they wear as language. What follows is where it comes from
           — the thinking, the studio, and the people behind the drop.
         </p>

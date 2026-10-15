@@ -25,19 +25,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maison Argyle — Garments as cultural artifacts",
+  title: "Morello Studio — Garments as cultural artifacts",
   description:
-    "Maison Argyle is a streetwear and essentials label. Considered basics, bold statements, and pieces that carry meaning. Made to be worn, made to mean something.",
+    "Morello Studio is a streetwear and essentials label. Considered basics, bold statements, and pieces that carry meaning. Made to be worn, made to mean something.",
   keywords: [
     "streetwear",
     "essentials",
     "fashion",
     "clothing",
-    "Maison Argyle",
+    "Morello Studio",
     "basics",
   ],
   openGraph: {
-    title: "Maison Argyle — Garments as cultural artifacts",
+    title: "Morello Studio — Garments as cultural artifacts",
     description:
       "Considered basics, bold statements, and pieces that carry meaning.",
     type: "website",

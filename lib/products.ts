@@ -1,5 +1,5 @@
 /**
- * Catalogue data for Maison Argyle. Product imagery lives in /public/home; the <Media>
+ * Catalogue data for Morello Studio. Product imagery lives in /public/home; the <Media>
  * component falls back gracefully if any asset is unavailable. Lookbook /
  * editorial imagery lives in /public/about.
  *
@@ -270,7 +270,7 @@ export const products: Product[] = [
     sizes: APPAREL,
     badge: "New in",
     description:
-      "The Argyle Mansion back print — a banquet table set for people who don't like resorts. Washed bone jersey, printed and numbered in Kathmandu.",
+      "The Morello Mansion back print — a banquet table set for people who don't like resorts. Washed bone jersey, printed and numbered in Kathmandu.",
     details: [
       "240 GSM garment-washed cotton jersey",
       "Water-based back print",

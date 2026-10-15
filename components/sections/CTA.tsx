@@ -6,7 +6,7 @@ import TextReveal from "@/components/ui/TextReveal";
 export default function CTA() {
   return (
     <section className="relative h-[70vh] min-h-[520px] overflow-hidden">
-      <Media src="/home/poster.jpg" alt="Maison Argyle Vol. 03 campaign" sizes="100vw" />
+      <Media src="/home/poster.jpg" alt="Morello Studio Vol. 03 campaign" sizes="100vw" />
       <div className="absolute inset-0 bg-ink/45" />
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center gap-30 px-5 text-center text-bone">

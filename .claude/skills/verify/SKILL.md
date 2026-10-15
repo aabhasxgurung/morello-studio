@@ -1,6 +1,6 @@
 ---
 name: verify
-description: Build, run, and visually verify the Maison Argyle storefront (Next.js + Lenis + GSAP).
+description: Build, run, and visually verify the Morello Studio storefront (Next.js + Lenis + GSAP).
 ---
 
 # Verifying changes in this repo

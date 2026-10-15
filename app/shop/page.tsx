@@ -3,9 +3,9 @@ import { Suspense } from "react";
 import Store from "@/components/sections/Store";
 
 export const metadata: Metadata = {
-  title: "Shop — Maison Argyle",
+  title: "Shop — Morello Studio",
   description:
-    "Shop the full Maison Argyle Vol. 03 collection. Heavyweight basics, considered cuts, and pieces that carry meaning.",
+    "Shop the full Morello Studio Vol. 03 collection. Heavyweight basics, considered cuts, and pieces that carry meaning.",
 };
 
 export default function ShopPage() {

@@ -65,10 +65,10 @@ export default function Footer() {
         items={[
           "NEW DROP — VOL. 03",
           "MANSION 2026 — OUT NOW",
-          "JOIN THE MAISON ARGYLE COMMUNITY",
+          "JOIN THE MORELLO STUDIO COMMUNITY",
           "WORLDWIDE SHIPPING",
         ]}
-        className="border-y border-bone/15 py-4 text-accent"
+        className="border-y border-bone/15 py-4 text-accent-soft"
         duration={32}
       />
 
@@ -89,7 +89,7 @@ export default function Footer() {
             <button
               type="submit"
               data-cursor="Send"
-              className="label inline-flex shrink-0 items-center gap-1.5 text-accent"
+              className="label inline-flex shrink-0 items-center gap-1.5 text-accent-soft"
             >
               Subscribe
               <ArrowRight className="h-3.5 w-3.5" strokeWidth={1.5} />
@@ -116,12 +116,12 @@ export default function Footer() {
       {/* Oversized wordmark bleeds off both edges */}
       <div className="relative px-2">
         <h2 className="font-display select-none text-center leading-[0.8] text-bone [font-size:clamp(2.4rem,14.5vw,12rem)]">
-          MAISON ARGYL<span className="text-accent">E</span>
+          MORELLO STUDI<span className="text-accent-soft">O</span>
         </h2>
       </div>
 
       <div className="flex flex-col gap-3 border-t border-bone/15 px-5 py-6 text-bone/50 md:flex-row md:items-center md:justify-between md:px-10 md:py-5">
-        <p className="label">© MMXXVI Maison Argyle — All rights reserved</p>
+        <p className="label">© MMXXVI Morello Studio — All rights reserved</p>
         <p className="label">Garments as cultural artifacts</p>
         <p className="label">Designed in transit · Built with intent</p>
       </div>

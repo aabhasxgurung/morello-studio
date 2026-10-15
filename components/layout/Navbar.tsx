@@ -129,9 +129,13 @@ export default function Navbar() {
         <Magnetic>
           <Link
             href="/"
-            className="font-display text-xl leading-none tracking-tight md:text-2xl"
+            aria-label="Morello Studio — home"
+            className="flex items-center gap-2.5 md:gap-3"
           >
-            MAISON ARGYLE
+            <span className="logo-mark h-6 w-[1.15rem] shrink-0 md:h-7 md:w-[1.35rem]" />
+            <span className="font-display text-xl leading-none tracking-tight md:text-2xl">
+              MORELLO STUDIO
+            </span>
           </Link>
         </Magnetic>
 
@@ -201,7 +205,7 @@ export default function Navbar() {
                       ease: [0.16, 1, 0.3, 1],
                     }}
                   >
-                    <span className="font-display text-[clamp(2.4rem,11vw,8rem)] leading-[0.95] transition-colors duration-300 group-hover:text-accent">
+                    <span className="font-display text-[clamp(2.4rem,11vw,8rem)] leading-[0.95] transition-colors duration-300 group-hover:text-accent-soft">
                       {l.label}
                     </span>
                     <span className="label hidden text-bone/50 sm:block">

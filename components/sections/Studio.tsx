@@ -70,7 +70,7 @@ export default function Studio() {
             <div className="par-a absolute inset-x-0 -top-[16%] h-[132%]">
               <Media
                 src="/about/ab8.jpg"
-                alt="Inside the Maison Argyle studio"
+                alt="Inside the Morello Studio studio"
                 sizes="(max-width: 768px) 100vw, 42vw"
               />
             </div>
@@ -81,7 +81,7 @@ export default function Studio() {
         <div className="flex flex-col gap-10 md:col-span-4 md:pt-6">
           <Reveal>
             <p className="text-lg leading-relaxed text-ink-soft">
-              Maison Argyle moves between cities. We work in small runs with
+              Morello Studio moves between cities. We work in small runs with
               named makers, drawing on folklore, workwear and the quiet codes of
               the street. Every piece is a record of where it was made and who
               it was made for.
@@ -113,7 +113,7 @@ export default function Studio() {
             <div className="par-b absolute inset-x-0 -top-[12%] h-[124%]">
               <Media
                 src="/about/ab9.jpg"
-                alt="Maison Argyle fabric study"
+                alt="Morello Studio fabric study"
                 sizes="(max-width: 768px) 100vw, 25vw"
               />
             </div>
